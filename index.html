@@ -2,17 +2,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Funding Gap Timeline</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Funding Gap Timeline (2015–2025)</h1>
-    <div id="timeline">
-      <!-- Events will be loaded by script.js -->
+    <h1>Funding Gap Timeline</h1>
+    <p>Explore key policy changes affecting special education, healthcare, and economic support (2015–2025).</p>
+    
+    <div class="timeline" id="timeline"></div>
+
+    <div class="event-details" id="eventDetails">
+      <h2 id="eventTitle">Select a Year</h2>
+      <p id="eventDescription"></p>
     </div>
-    <script src="script.js"></script>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
